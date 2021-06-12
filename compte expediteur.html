@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>  admin dashobord</title>
+        <meta  charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet"  type="text/css" href="style.css">
+         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <style>
+        .body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Verdana', Geneva, 'Tahoma', 'sans-serif';
+    
+        }
+        .table{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            border-collapse: collapse;
+            width: 800px;
+            height: 200px;
+            border: 1px solid #bdc3c7;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.2) -1px -1px 8px rgba(0,0,0,0.2);
+    
+        }
+        .tr{
+            transition: all .2s ease-in;
+             cursor: pointer;
+        }
+        .th,td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .display{
+            background-color: lightseagreen;
+            color: #fff;
+    
+        }
+        .tr:hover{
+            background-color: #f5f5f5;
+            transform: scale(1.02);
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.2) -1px -1px 8px rgba(0,0,0,0.2);
+        }
+        media only screen and(max-width:768px)
+           table{
+               width:90%;
+    
+           }
+         </style>
+   <body>
+    <div class="sideber">
+         <div  class="sideber-brand">
+       <h2> <span class=""></span> MedYou_Com</h2> </label>
+         </div>
+         <li>
+            <!-- user  image section-->
+            <div class="user-section">
+
+
+                <div class="user-section-inner">
+                    <img src="assets/img/user.jpg" alt="">
+                </div>
+                <div class="user-text-online">
+                    
+         <i class='bx bx-menu' id="btn"></i>
+         <class="sidebar-collapse">
+            <!-- side-<dimenu -->
+            <ul class="nav-list" id="side-menu">
+                 <li>
+                        <i class='bx bx-search' ></i>
+                          <input type="text" placeholder="search"
+                    
+                 
+                
+                            
+                        </div>
+                    </div>
+                    <!--end user image section-->
+                </li>
+                
+                
+        
+                        
+               
+         <div class="sideber-menu">
+              <ul>
+            
+                <a href="admin.html"> <i class='bx bxs-home'></i>
+                    Dashboard <span class="fa fa-home"></span></a>
+                    <br>
+                    <br>
+
+                       <a href="ajout.html"> <i class='bx bxs-user-plus'></i>
+                        Ajout Pickup  <span class=" fa fa-tasks"></span></a>
+                         <br>
+                         <br>
+                        
+                     <a href="modif.html"> <i class='bx bxs-message-square-edit'></i>
+                    modifier <span class="fa fa-th-large"></span> </a> 
+                    <br>
+                    <br>
+            
+                 <a href="recherche.html"> <i class='bx bx-search-alt'></i>
+                    Recherche  <span class="fa fa-line-chart"></span></a>
+                    <br>
+                    <br>
+                      
+                <a href="compte expediteur.html"><i class='bx bx-chat'></i>
+                    Compte Expéditeur   <span class="fa fa-adress-book"></span></a>
+                     <br>
+                     <br>
+                                    
+                 <a href="login.html">
+                    Deconnexion <span class="fa fa-edit fa-fw"></span></a>
+                                        
+              </ul>
+
+         </div>
+    </div>
+        <div class="content">
+            <header>
+                <p> <label for="menu"><span class="fa fa-bars""></span></label></p>
+               <p> <span class="acceuil">compte expediteur</span></p>
+             <div id="dropdown" class="user-wrapp">
+                 
+             </div>
+            </header>
+             <center>
+            <table  class="display" align="center">
+                <thead>
+                    <br>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>Expéditeur</td>
+                        <td> Prix Total</td>
+                        <td>Compte Expéditeur</td>
+                        <td>Compte MedYou_Com</td>
+                        <td>Date</td>
+                        <td>Action</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td> <a href="liste.html" class="btn btn-danger"> Suivie</a></td>
+                    </tr>
+                    </thead>
+                    </table>
+                    </center>
+                    </div>
+                    </body>
+                    </html>

@@ -1,0 +1,317 @@
+<html>
+
+<head>
+	<title>page connexion</title>
+
+
+	<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+
+	<style>
+		a {
+			text-decoration: none;
+		}
+
+		center.text {
+			font-weight: bold;
+
+			text-shadow: 2px 2px #000;
+		}
+
+		img.img1 {
+			margin-top: -100px;
+			margin-left: 520px;
+		}
+
+		div.box {
+
+			background-color: rgba(255, 255, 255, .4);
+			border-radius: 10px;
+			width: 380px;
+			height: 350px;
+			box-shadow: 5px 5px 5px 5px #2E4476;
+			margin-left: 490px;
+			margin-top: 30px;
+		}
+
+		button.bouton {
+			margin-top: -225px;
+			margin-left: 540px;
+			-webkit-transition: all 0s ease-out;
+			-moz-transition: all 0s ease-out;
+			-o-transition: all 0s ease-out;
+			-ms-transition: all 0s ease-out;
+			transition: all 0s ease-out;
+			height: 35px;
+			width: 250px;
+			display: block;
+			font-family: Arial, "Helvetica", sans-serif;
+			font-size: 14px;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+			padding: 4px 20px 0;
+
+			left: 30px;
+			position: relative;
+			cursor: pointer;
+			border: none;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+
+		button.admin {
+			border-left: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.admin:active {
+			top: 3px;
+		}
+
+		button.admin:active {
+			-webkit-box-shadow: 0px 2px 0px 0px #c1d4e2;
+			box-shadow: 0px 2px 0px 0px #c1d4e2;
+		}
+
+
+
+		button.admin:before {
+			content: "1";
+			width: 35px;
+			height: 25px;
+			display: block;
+			position: absolute;
+			padding-top: 10px;
+			line-height: 20px;
+			top: 0px;
+			margin-left: -54px;
+			font-size: 16px;
+			font-weight: bold;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+
+		button.admin:before {
+			border-right: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.admin:active:before {
+			top: -3px;
+		}
+
+		button.admin:active:before {
+			-webkit-box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+		}
+
+		button.bouton1 {
+			margin-top: 5px;
+			margin-left: 540px;
+			-webkit-transition: all 0s ease-out;
+			-moz-transition: all 0s ease-out;
+			-o-transition: all 0s ease-out;
+			-ms-transition: all 0s ease-out;
+			transition: all 0s ease-out;
+			height: 35px;
+			width: 250px;
+			display: block;
+			font-family: Arial, "Helvetica", sans-serif;
+			font-size: 14px;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+			padding: 4px 20px 0;
+
+			left: 30px;
+			position: relative;
+			cursor: pointer;
+			border: none;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+
+		button.tech {
+			border-left: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.tech:active {
+			top: 3px;
+		}
+
+		button.tech:active {
+			-webkit-box-shadow: 0px 2px 0px 0px #2E4476;
+			box-shadow: 0px 2px 0px 0px #2E4476;
+		}
+
+
+
+		button.tech:before {
+			content: "2";
+			width: 35px;
+			height: 25px;
+			display: block;
+			position: absolute;
+			padding-top: 10px;
+			line-height: 20px;
+			top: 0px;
+			margin-left: -54px;
+			font-size: 16px;
+			font-weight: bold;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+
+		button.tech:before {
+			border-right: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.tech:active:before {
+			top: -3px;
+		}
+
+		button.tech:active:before {
+			-webkit-box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+		}
+
+
+		button.bouton1 {
+			margin-top: 5px;
+			margin-left: 540px;
+			-webkit-transition: all 0s ease-out;
+			-moz-transition: all 0s ease-out;
+			-o-transition: all 0s ease-out;
+			-ms-transition: all 0s ease-out;
+			transition: all 0s ease-out;
+			height: 35px;
+			width: 250px;
+			display: block;
+			font-family: Arial, "Helvetica", sans-serif;
+			font-size: 14px;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+			padding: 4px 20px 0;
+
+			left: 30px;
+			position: relative;
+			cursor: pointer;
+			border: none;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+
+		button.ad {
+			border-left: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.ad:active {
+			top: 3px;
+		}
+
+		button.ad:active {
+			-webkit-box-shadow: 0px 2px 0px 0px #2E4476;
+			box-shadow: 0px 2px 0px 0px #2E4476;
+		}
+
+
+
+		button.ad:before {
+			content: "3";
+			width: 35px;
+			height: 25px;
+			display: block;
+			position: absolute;
+			padding-top: 10px;
+			line-height: 20px;
+			top: 0px;
+			margin-left: -54px;
+			font-size: 16px;
+			font-weight: bold;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+
+		button.ad:before {
+			border-right: solid 1px #c1d4e2;
+			background: #191921;
+
+			-webkit-box-shadow: 0px 5px 0px 0px #283641;
+			box-shadow: 0px 5px 0px 0px #283641;
+		}
+
+
+
+		button.ad:active:before {
+			top: -3px;
+		}
+
+		button.ad:active:before {
+			-webkit-box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 5px 0px 0px #2E4476, 6px 4px 2px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+
+</head>
+
+
+<br><br><br>
+
+<body style="background:url(images/u.jpg) no-repeat center fixed; background-size:cover;">
+
+	<div class="box">
+		<center class="text">
+			<font color="#fff" size="14">Bienvenue</font>
+		</center>
+	</div>
+
+	<a href="login.html"><button class="bouton admin">Espace Expéditeur</button></a><br>
+
+	<a href="inscrit.html"><button class="bouton1 tech">Espace Agence</button></a><br>
+
+	<a href="login_admin.html"><button class="bouton1 ad">Espace Admin</button></a><br>
+
+
+
+	</div>
+
+
+
+	</div>
+
+
+</body>
+
+</html>

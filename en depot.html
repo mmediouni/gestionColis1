@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>  admin dashobord</title>
+        <meta  charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet"  type="text/css" href="style.css">
+         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="sideber">
+             <div  class="sideber-brand">
+           <h2> <span class=""></span> MedYou_Com</h2> </label>
+             </div>
+             <li>
+                <!-- user  image section-->
+                <div class="user-section">
+
+
+                    <div class="user-section-inner">
+                        <img src="assets/img/user.jpg" alt="">
+                    </div>
+                    <div class="user-text-online">
+                        
+             <i class='bx bx-menu' id="btn"></i>
+             <class="sidebar-collapse">
+                <!-- side-<dimenu -->
+                <ul class="nav-list" id="side-menu">
+                     <li>
+                            <i class='bx bx-search' ></i>
+                              <input type="text" placeholder="search"
+                        
+                     
+                    
+                                
+                            </div>
+                        </div>
+                        <!--end user image section-->
+                    </li>
+                    
+                    
+            
+                            
+                   
+             <div class="sideber-menu">
+                  <ul>
+                
+                    <a href="admin.html"> <i class='bx bxs-home'></i>
+                        Dashboard <span class="fa fa-home"></span></a>
+                        <br>
+                        <br>
+
+                           <a href="ajout.html"> <i class='bx bxs-user-plus'></i>
+                            Ajout Pickup  <span class=" fa fa-tasks"></span></a>
+                             <br>
+                             <br>
+                            
+                         <a href="modif.html"> <i class='bx bxs-message-square-edit'></i>
+                        modifier <span class="fa fa-th-large"></span> </a> 
+                        <br>
+                        <br>
+                
+                     <a href="recherche.html"> <i class='bx bx-search-alt'></i>
+                        Recherche  <span class="fa fa-line-chart"></span></a>
+                        <br>
+                        <br>
+                          
+                    <a href="compte expediteur.html"><i class='bx bx-chat'></i>
+                        Compte Expéditeur   <span class="fa fa-adress-book"></span></a>
+                         <br>
+                         <br>
+                                        
+                     <a href="login.html">
+                        Deconnexion <span class="fa fa-edit fa-fw"></span></a>
+                                            
+                  </ul>
+
+             </div>
+        </div>
+        <div class="content">
+            <header>
+                <p> <label for="menu"><span class="fa fa-bars""></span></label></p>
+               <p> <span class="acceuil">Gestion Pickup</span></p>
+             <div id="dropdown" class="user-wrapp">
+                 
+             </div>
+            </header>
+            <div id="page-wrapper">
+
+                <div class="row">
+                    <!-- Page Header -->
+                    <div class="col-lg-12">
+                        
+                        <br><br><br><br><br>
+                        <div style="float:center;height:50px;margin-left:200px;">
+        
+    <table border="0" width="100%" height="100" >
+    <form name="f1" action="ajouter_contact.php" method="post" >
+        <tr>
+             <td><font face='Verdana, Arial, Helvetica, sans-serif'><b> Etat </b> </font></td>
+              <td>
+                  <select name="Etat">
+                    <option selected="selected">En  dépot</option>  
+                    <option >En  attente</option>
+                       <option>En Cours</option>
+                       <option>livrés</option>
+                  </select>
+           </td></tr>
+    <tr><td><font face='Verdana, Arial, Helvetica, sans-serif'><b>Code:</b></font></td>
+    <td><font face='Verdana, Arial, Helvetica, sans-serif' ><input  type="text" class="form-control" required name="code" size="30"style="font-size:16;height:30px ;width:450px;" /></font></td></tr>
+    
+    <tr></tr>
+    <tr></tr>
+    <td></td><td></td>
+    </tr>
+    </table><br>
+    
+       
+        
+        <span id="ctl00_MainContentHolder_lbl_count" class="label_gauche">[0] Colis Trouvé(s)</span> <center> <input type='submit' value='recherche' class="btn btn-default" style='font-size:16;height:35px;'>
+    </center>
+       
+    </div>
+    
+                    </div>
+                    <!--End Page Header -->
+                </div>
+    
+                
+    
+            </div>
+            <!-- end page-wrapper -->
+    
+        </div>
+        </body>
+        </html>
